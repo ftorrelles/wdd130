@@ -3,8 +3,8 @@
   --secundary-color: #f3f3f3;
   --accent1-color: #606a6f;
   --accent2-color: #1e3f4e;
-  --heading-font: "Montserrat", sans-serif;
-  --body-font: "Roboto", sans-serif;
+  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Roboto', sans-serif;
 }
 
 * {
@@ -93,3 +93,8 @@ article {
   transform: scale(1.05);
 }
 /* footer */
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+}
