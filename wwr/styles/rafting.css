@@ -35,14 +35,15 @@ h2 {
 /* Header */
 
 header {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  background-color: var(--primary-color);
+  background-color: var(--accent2-color);
 }
 
 header img {
-  width: 200px;
+  margin-left: 5rem;
+  width: 180px;
   height: auto;
 }
 
@@ -57,7 +58,7 @@ header .navigation a {
 }
 
 header .navigation a:hover {
-  color: var(--accent2-color);
+  color: var(--primary-color);
   font-weight: 700;
 }
 
