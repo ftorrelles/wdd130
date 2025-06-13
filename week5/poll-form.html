@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User poll</title>
+        <link rel="stylesheet" href="styles/pull-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>WDD 130 | Francisco T. | HTML Form - User poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact information</legend>
+
+                    <div class="form-item contact-info">
+                        <label for="Fullname">Full name</label>
+                        <input type="text" id="Fullname" name="Full name" placeholder="Enter your full name" required>
+
+                    </div>
+                    <div class="form-item contact-info">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" name="Email" placeholder="Enter your email" required>
+                    </div>
+
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item qustions">
+                        <label for="Favoritebrowser">Favorite internet browser</label>
+                        <select id="Favoritebrowser" name="Favorite browser" required>
+                            <option value="" disabled selected>Select your favorite browser</option>
+                            <option value="Chrome">Chrome</option>
+                            <option value="Firefox">Firefox</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Edge">Edge</option>
+                        </select>
+                    </div>
+                    <div class="form-item qustions">
+                        <label for="pet">Do you have a pet?</label>
+                        <input type="checkbox" name="pet" id="pet">
+                    </div>
+                    <div class="form-item qustions feedback">
+                        <label for="feedback">List the place you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4" cols="50"
+                            placeholder="Enter your feedback here..."></textarea>
+                    </div>
+
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+
+        </main>
+        <footer>
+            <p>© 2025 🦾 Francisco Torrelles 🦾 Bogota Colombia</p>
+        </footer>
+    </body>
+
+</html>
