@@ -205,6 +205,10 @@ footer p {
   padding: 1rem;
   font-size: 1.2rem;
 }
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
 .socialmedia {
   position: absolute;
