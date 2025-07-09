@@ -64,6 +64,7 @@ h2 {
 aside img {
   width: 200px;
   height: auto;
+  padding-bottom: 1rem;
 }
 footer {
   margin-top: 3rem;
@@ -80,7 +81,4 @@ footer {
   padding: 10px;
   background-color: lightgray;
   color: #000;
-}
-.img-bogota {
-  padding-bottom: 1rem;
 }
